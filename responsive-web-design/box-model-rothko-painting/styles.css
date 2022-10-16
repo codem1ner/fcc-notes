@@ -2,9 +2,8 @@
   width: 500px;
   height: 600px;
   background-color: #4d0f00;
-  /*
-  padding: 1px;  Give element something solid to push off of
-  */
+  /* padding: 1px;  */ 
+  /* Give element something solid to push off of */
   overflow: hidden; /* Same effect as padding: 1px; */
   filter: blur(2px); /* Blur painting by 2px */
 }
