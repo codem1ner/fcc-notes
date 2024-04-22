@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatPhotoApp</title>
+  </head>
+
+  <body>
+
+    <!-- Header Section -->
+    <main>
+      <h1>CatPhotoApp</h1>
+
+      <!-- Section 1: Cat Photos -->
+      <section>
+        <h2>Cat Photos</h2>
+        
+        <!-- Gallery Link -->
+        <p>See more
+          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
+          in our gallery.
+        </p>
+
+        <!-- Gallery Image Link -->
+        <a href="https://freecatphotoapp.com">          
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="A cute orange cat lying on its back"
+          />
+        </a>
+
+      </section>
+
+      <!-- Section 2: Cat Information Lists -->
+      <section>
+        <h2>Cat Lists</h2>     
+
+        <!-- Unordered List Subsection -->
+        <h3>Things cats love:</h3> 
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        
+        <!-- Captioned Figure 1 -->
+        <figure>         
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+            alt="A slice of lasagna on a plate"
+          />
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+        
+        <!-- Ordered List Subsection -->
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        
+        <!-- Captioned Figure 2 -->
+        <figure>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+            alt="Five cats looking around a field"
+          />
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+        </figure>
+
+      </section>
+
+      <!-- Section3: Cat Photo URL Submission Form -->
+      <section>
+        <h2>Cat Form</h2>
+        <!-- Cat Photo Submission Form: action set to URL -->
+        <form action="https://freecatphotoapp.com/submit-cat-photo">          
+      
+          <!-- Radio Button Group: select indoors/outdoors photo option. 
+          The 'name' attribute ensures only one option selectable -->
+          <fieldset>
+
+            <!-- Radio Button 1: 'indoor' option -->
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label>Indoor
+              <input 
+                id="indoor" 
+                type="radio" 
+                name="indoor-outdoor" 
+                value="indoor"
+                checked>
+            </label>
+            
+            <!-- Radio Button 2: 'outdoor' option -->
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label>Outdoor
+              <input 
+                id="outdoor" 
+                type="radio" 
+                name="indoor-outdoor" 
+                value="outdoor"
+              >
+            </label>
+
+          </fieldset>
+
+          <!-- Checkbox Group: Select Personality Traits -->
+          <fieldset> 
+            <legend>What's your cat's personality?</legend>
+
+            <!-- Checkbox 1: 'loving' -->
+            <input id="loving" type="checkbox" name="personality" value="loving" checked>   
+            <label for="loving">Loving</label>                   
+            
+            <!-- Checkbox 2: 'lazy' -->
+            <input id="lazy" type="checkbox" name="personality" value="lazy">   
+            <label for="lazy">Lazy</label>                   
+           
+            <!-- Checkbox 3: 'energetic' -->
+            <input id="energetic" type="checkbox" name="personality" value="energetic">   
+            <label for="energetic">Energetic</label>                             
+          
+          </fieldset>          
+
+          <!-- Cat Photo URL Text Input Field: mandatory; provides user hint -->
+          <input
+            type="text"
+            name="catphotourl"
+            required
+            placeholder="Cat Photo URL"
+          />
+        
+          <!-- Form Submit Button -->
+          <button type="submit">Submit</button>
+        
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>No Copyright - 
+        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+
+  </body>
+</html>
+<!-- Void elements area, base, br, col, embed, hr, img, input, link, meta,
+source, track, wbr  -->
