@@ -1,0 +1,11 @@
+/* Grouped type selectors */
+h1, h2, p {
+    text-align: center;
+}
+
+/* Type selector */
+body {
+    background-color: burlywood;
+  }
+
+  
