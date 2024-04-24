@@ -48,7 +48,11 @@ The CSS styles are used to style the `div` elements to look like a Rothko painti
 }
 ```
 
-The `.canvas` class styles the canvas of the painting. The `width` and `height` properties set the size of the canvas. The `background-color` property sets the background color of the canvas. The `overflow: hidden;` property ensures that nothing spills out of the canvas. The `filter: blur(2px);` property applies a blur effect to the canvas, giving the painting a soft look.
+- The `.canvas` class styles the canvas of the painting. 
+- The `width` and `height` properties set the size of the canvas. 
+- The `background-color` property sets the background color of the canvas. 
+- The `overflow: hidden;` property ensures that nothing spills out of the canvas. 
+- The `filter: blur(2px);` property applies a blur effect to the canvas, giving the painting a soft look.
 
 ### .frame
 
@@ -61,7 +65,11 @@ The `.canvas` class styles the canvas of the painting. The `width` and `height` 
 }
 ```
 
-The `.frame` class styles the frame of the painting. The `border: solid black 50px;` property creates a solid black border around the frame. The `width` property sets the width of the frame. The `padding: 50px;` property creates space between the frame and the canvas. The `margin: 20px auto;` property moves the frame down 20px and centers it horizontally.
+- The `.frame` class styles the frame of the painting. 
+- The `border: solid black 50px;` property creates a solid black border around the frame. 
+- The `width` property sets the width of the frame. 
+- The `padding: 50px;` property creates space between the frame and the canvas. 
+- The `margin: 20px auto;` property moves the frame down 20px and centers it horizontally.
 
 ### .rectangle-one, .rectangle-two, .rectangle-three
 
@@ -98,7 +106,13 @@ The `.frame` class styles the frame of the painting. The `border: solid black 50
 }
 ```
 
-The `.rectangle-one`, `.rectangle-two`, and `.rectangle-three` classes style the three rectangles in the painting. The `width` and `height` properties set the size of the rectangles. The `background-color` property sets the color of the rectangles. The `margin` property centers the rectangles and creates space between them. The `box-shadow` property creates a shadow effect around the rectangles. The `border-radius` property rounds the corners of the rectangles. The `transform: rotate();` property rotates the rectangles to give the painting an imperfect, hand-painted look.
+- The `.rectangle-one`, `.rectangle-two`, and `.rectangle-three` classes style the three rectangles in the painting.
+- The `width` and `height` properties set the size of the rectangles.
+- The `background-color` property sets the color of the rectangles.
+- The `margin` property centers the rectangles and creates space between them.
+- The `box-shadow` property creates a shadow effect around the rectangles.
+- The `border-radius` property rounds the corners of the rectangles.
+- The `transform: rotate();` property rotates the rectangles to give the painting an imperfect, hand-painted look.
 
 ### .rectangle-one, .rectangle-two
 
@@ -108,4 +122,4 @@ The `.rectangle-one`, `.rectangle-two`, and `.rectangle-three` classes style the
 }
 ```
 
-The `.rectangle-one, .rectangle-two` selector applies a blur effect to the first and second rectangles, giving them a soft look.
+- The `.rectangle-one, .rectangle-two` selector applies a blur effect to the first and second rectangles, giving them a soft look.
