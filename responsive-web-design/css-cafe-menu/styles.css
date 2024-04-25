@@ -1,11 +1,116 @@
-/* Grouped type selectors */
-h1, h2, p {
-    text-align: center;
-}
+/* This is the global CSS for the CSS Cafe Menu challenge on freeCodeCamp.org */
 
-/* Type selector */
+/* Set background image and font family for the entire document */
 body {
-    background-color: burlywood;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* The URL for the background image */
+    font-family: sans-serif; /* Set the font family to sans-serif */
+    padding: 20px; /* Add some padding to make the content look more centered */
   }
-
+  
+  /* Style the h1 elements */
+  h1 {
+    font-size: 40px; /* Set the font size to 40 pixels */
+    margin-top: 0; /* Remove the top margin from headings */
+    margin-bottom: 15px; /* Remove the bottom margin from headings */
+  }
+  
+  /* Style the h2 elements */
+  h2 {
+    font-size: 30px; /* Set the font size to 30 pixels */
+  }
+  
+  /* Style the established class */
+  .established {
+    font-style: italic; /* Make the text italic */
+  }
+  
+  /* Style all h1, h2, and p elements */
+  h1, h2, p {
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  /* Style the menu class */
+  .menu {
+    width: 80%; /* Set the width to 80% of the parent element's width */
+    background-color: burlywood; /* Set a light brown background color */
+    margin-left: auto; /* Center the menu horizontally using auto margins */
+    margin-right: auto; /* Center the menu horizontally using auto margins */
+    padding: 20px; /* Add some padding around the contents of the menu */
+    max-width: 500px; /* Set a maximum width of 500 pixels */
+  }
+  
+  /* Style the img elements */
+  img {
+    display: block; /* Display the images as blocks */
+    margin-left: auto; /* Center the images horizontally */
+    margin-right: auto; /* Center the images horizontally */
+    margin-top: -25px; /* Push the image down by 25 pixels */
+  }
+  
+  /* Style the hr elements */
+  hr {
+    height: 2px; /* Set the height of the hr element to 2 pixels */
+    background-color: brown; /* Set the background color to brown */
+    border-color: brown; /* Set the border color to brown */
+  }
+  
+  /* Style the class for the bottom hr element */
+  .bottom-line {
+    margin-top: 25px; /* Add some margin between the bottom hr element and the rest of the content */
+  }
+  
+  /* Style all h1 and h2 elements */
+  h1, h2 {
+    font-family: Impact, serif; /* Set the font family to Impact, serif */
+  }
+  
+  /* Style the item paragraph elements */
+  .item p {
+    display: inline-block; /* Display the paragraphs as inline blocks */
+    margin-top: 5px; /* Add some margin above each paragraph */
+    margin-bottom: 5px; /* Add some margin below each paragraph */
+    font-size: 18px; /* Set the font size to 18 pixels */
+  }
+  
+  /* Style the flavor and dessert classes */
+  .flavor, .dessert {
+    text-align: left; /* Left-align the text in these elements */
+    width: 75%; /* Set the width to 75% of the parent element's width */
+  }
+  
+  /* Style the price class */
+  .price {
+    text-align: right; /* Right-align the text in this element */
+    width: 25%; /* Set the width to 25% of the parent element's width */
+  }
+  
+  /* Style the footer */
+  footer {
+    font-size: 14px; /* Set the font size to 14 pixels */
+  }
+  
+  /* Style the address class */
+  .address {
+    margin-bottom: 5px; /* Add some margin below the address class */
+  }
+  
+  /* Style all link elements */
+  a {
+    color: black; /* Set the color of all links to black */
+  }
+  
+  /* Style visited link elements */
+  a:visited {
+    color: black; /* Set the color of visited links to black */
+  }
+  
+  /* Style hover link elements */
+  a:hover {
+    color: brown; /* Set the color of hover links to brown */
+  }
+  
+  /* Style active link elements */
+  a:active {
+    color: brown; /* Set the color of active links to brown */
+  }
   
