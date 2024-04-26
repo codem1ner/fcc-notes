@@ -4,7 +4,7 @@
 
 ![](responsive-web-design.jpeg)
 
-### Section 1
+### Section 1: Basic 
 - [HTML:Build a Cat Photo App](https://github.com/codem1ner/free-code-camp/tree/main/responsive-web-design/html-cat-photo-app)
 
 - [CSS: Build a Cafe Menu](https://github.com/codem1ner/free-code-camp/tree/main/responsive-web-design/css-cafe-menu)
