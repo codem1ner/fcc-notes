@@ -16,7 +16,7 @@ body {
   
   /* Style the h2 elements */
   h2 {
-    font-size: 30px; /*
+    font-size: 30px;
   }
   
   /* Style the `established` class */
@@ -108,8 +108,8 @@ body {
   a:hover {
     color: brown; 
   }
-  
-/* Set the color of active links to brown */
+
+  /* Set the color of active links to brown */
   a:active {
     color: brown; 
   }
