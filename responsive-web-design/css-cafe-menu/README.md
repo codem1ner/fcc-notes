@@ -1,15 +1,19 @@
-# Learn Basic CSS by Building a Cafe Menu
+# Learn Basic CSS by Building a Cafe Menu: Steps
 
 [Live Preview](https://raw.githack.com/codem1ner/free-code-camp/main/responsive-web-design/css-cafe-menu/index.html)
 
-
-# Learn Basic CSS by Building a Cafe Menu, Completed
 > - CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.
 > - In this course, you'll learn CSS by designing a menu page for a cafe webpage.
 ---
 
 > **Step 1** <br>
+
+In this project, you will learn the basics of CSS(Cascading Style Sheets) by building a cafe menu. CSS is the language used to style an HTML document. It describes how HTML elements should be displayed on the screen.
+
 As you learned in the last few steps of the Cat Photo App, there is a basic structure needed to start building your web page.<br>
+
+Every HTML document should have a DOCTYPE declaration and html element. The DOCTYPE tells the browser which version of HTML the document is in. And the html element represents the root element which contains all other elements.
+
 Add the `<!DOCTYPE html>` tag, and an `html` element with a `lang` attribute of `en`.
 
 ```html
