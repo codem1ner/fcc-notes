@@ -1,4 +1,4 @@
-# Learn HTML by Building a Cat Photo App, Completed
+# Learn CSS by Building Colored Markers
 
 [Live Preview]()
 
